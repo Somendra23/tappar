@@ -37,6 +37,7 @@ public class Publisher {
 			//System.out.println("<< Message Published On Topic >>");
 			session.close();
 			connection.close();
+			System.out.println("Make this an update to project");
 			
 		} catch (JMSException e) {
 			// TODO Auto-generated catch block
